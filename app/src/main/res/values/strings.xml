@@ -10,4 +10,13 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="monsterhunter">MonsterHunter</string>
+    <string name="guide">Guide</string>
+    <string name="todo">TODO</string>
+    <string name="mhworld">MHWorld</string>
+    <string name="mhgen4">MHGEN4</string>
+    <string name="mh">MH</string>
+    <string name="MH1">MH</string>
+    <string name="MH2">MH</string>
+    <string name="MH3">MH</string>
 </resources>
