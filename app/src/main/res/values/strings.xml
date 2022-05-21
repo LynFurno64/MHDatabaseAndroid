@@ -19,4 +19,15 @@
     <string name="MH1">MH</string>
     <string name="MH2">MH</string>
     <string name="MH3">MH</string>
+    <string name="mhworld_amp_iceborne"><![CDATA[MHWORLD & ICEBORNE]]></string>
+    <string name="mhrise_amp_sunbreak"><![CDATA[MHRISE & SUNBREAK]]></string>
+    <string name="mh3u_gen_3g">MH3U GEN 3G</string>
+    <string name="mh4u_gen_4g">MH4U GEN 4G</string>
+    <string name="mhgu_gen_4_pg">MHGU GEN 4 PG</string>
+    <string name="mhfreedom_gen_1_pg">MHFREEDOM GEN 1 PG</string>
+    <string name="mhfreedom_2_gen_2_pg">MHFREEDOM 2 GEN 2 PG</string>
+    <string name="mhportable_3rd_gen_3">MHPORTABLE 3rd GEN 3</string>
+    <string name="mhgen_5g">MHGEN 5G</string>
+    <string name="mhgen_5pg">MHGEN 5PG</string>
+    <string name="todo1">TODO</string>
 </resources>

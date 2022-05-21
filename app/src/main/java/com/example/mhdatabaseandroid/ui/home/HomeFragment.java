@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -19,6 +18,7 @@ public class HomeFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
         HomeViewModel homeViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
 
@@ -29,8 +29,8 @@ public class HomeFragment extends Fragment {
         // this from the text that shows in background
         //homeViewModel.getText().observe(getViewLifecycleOwner(), ScrollView::setText);
         return root;
-    }
 
+    }
     @Override
     public void onDestroyView() {
         super.onDestroyView();
