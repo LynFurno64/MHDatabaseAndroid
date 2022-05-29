@@ -1,12 +1,14 @@
 package com.example.mhdatabaseandroid;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.appcompat.widget.SearchView;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -53,6 +55,26 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.menu,menu);
+        MenuItem menuItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) menuItem.getActionView();
+        searchView.setQueryHint("Type here to search");
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+
+
+
+                return false;
+            }
+        });
+
         return true;
     }
 

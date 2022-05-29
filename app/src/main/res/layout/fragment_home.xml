@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF">
+        android:background="#9FC088">
 
 
         <androidx.appcompat.widget.Toolbar
@@ -42,7 +42,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="@string/guide"
+            android:text="Catelog"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -52,15 +52,16 @@
             android:layout_width="121dp"
             android:layout_height="139dp"
             android:layout_marginEnd="16dp"
+            android:contentDescription="@string/todo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar"
-            android:contentDescription="@string/todo" />
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="0dp"
             android:layout_height="175dp"
+            android:background="#614124"
             android:orientation="horizontal"
             android:padding="10dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -94,9 +95,12 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
+                        android:clickable="true"
                         android:contentDescription="@string/todo1"
-                        android:src="@drawable/ic_mhwi"
-                        android:scaleType="fitCenter"/>
+                        android:onClick="MainActivtity2"
+                        android:scaleType="fitCenter"
+                        android:src='@drawable/wi_logo' />
+
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -126,7 +130,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        />
+                        android:src='@drawable/rs_logo' />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -135,6 +139,7 @@
             android:id="@+id/linearLayout2"
             android:layout_width="0dp"
             android:layout_height="175dp"
+            android:background="#614124"
             android:orientation="horizontal"
             android:padding="10dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -167,7 +172,8 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp" />
+                        android:layout_marginTop="15dp"
+                        android:src='@drawable/ic_launcher' />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -196,7 +202,8 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp" />
+                        android:layout_marginTop="15dp"
+                        android:src='@drawable/mh4u' />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -205,6 +212,7 @@
             android:id="@+id/linearLayout3"
             android:layout_width="0dp"
             android:layout_height="175dp"
+            android:background="#614124"
             android:orientation="horizontal"
             android:padding="10dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -237,7 +245,8 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp" />
+                        android:layout_marginTop="15dp"
+                        android:src='@drawable/xx_logo' />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -266,7 +275,8 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp" />
+                        android:layout_marginTop="15dp"
+                        android:src='@drawable/f_logo' />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -275,6 +285,7 @@
             android:id="@+id/linearLayout4"
             android:layout_width="0dp"
             android:layout_height="175dp"
+            android:background="#614124"
             android:orientation="horizontal"
             android:padding="10dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -307,7 +318,8 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp" />
+                        android:layout_marginTop="15dp"
+                        android:src='@drawable/fu_logo' />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -337,79 +349,10 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp" />
+                        android:layout_marginTop="15dp"
+                        android:src='@drawable/_rd_logo' />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/linearLayout5"
-            android:layout_width="0dp"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:padding="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:layout_weight="1">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/textView12"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/cycle2"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="10dp"
-                        android:text="@string/mhgen_5g"
-                        android:textSize="15sp" />
-
-                    <ImageView
-                        android:id="@+id/cycle2"
-                        android:layout_width="75dp"
-                        android:layout_height="75dp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp" />
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:layout_weight="1">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/textView13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/airplane2"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/mhgen_5pg"
-                    android:textSize="15sp" />
-
-                <ImageView
-                    android:id="@+id/airplane2"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="15dp" />
-            </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
