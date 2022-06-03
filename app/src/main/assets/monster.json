@@ -1,0 +1,431 @@
+
+{
+"MHinfo":[
+    {
+        "generation": 4,
+        "group": "bug",
+        "id": 1,
+        "name": "Seltas",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "bug",
+        "id": 2,
+        "name": "Desert Seltas",
+        "variation": 2
+    },
+    {
+        "generation": 4,
+        "group": "bug",
+        "id": 3,
+        "name": "Seltas Queen",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "bug",
+        "id": 4,
+        "name": "Desert Seltas Queen",
+        "variation": 2
+    },
+    {
+        "generation": 4,
+        "group": "bug",
+        "id": 5,
+        "name": "Ahtal-Ka",
+        "variation": 1
+    },
+    {
+        "generation": 1,
+        "group": "bird",
+        "id": 6,
+        "name": "Velocidrome",
+        "variation": 1
+    },
+    {
+        "generation": 5,
+        "group": "bird",
+        "id": 7,
+        "name": "Izuchi",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "bird",
+        "id": 8,
+        "name": "Malfestio",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "bird",
+        "id": 9,
+        "name": "Nightcloak Malfestio",
+        "variation": 5
+    },
+    {
+        "generation": 5,
+        "group": "bird",
+        "id": 10,
+        "name": "Aknosom",
+        "variation": 1
+    },
+    {
+        "generation": 1,
+        "group": "flying",
+        "id": 11,
+        "name": "Rathalos",
+        "variation": 1
+    },
+    {
+        "generation": 1,
+        "group": "flying",
+        "id": 12,
+        "name": "Azure Rathalos",
+        "variation": 2
+    },
+    {
+        "generation": 1,
+        "group": "flying",
+        "id": 13,
+        "name": "Silver Rathalos",
+        "variation": 3
+    },
+    {
+        "generation": 4,
+        "group": "flying",
+        "id": 14,
+        "name": "Dreadking Rathalos",
+        "variation": 5
+    },
+    {
+        "generation": 4,
+        "group": "flying",
+        "id": 15,
+        "name": "Seregios",
+        "variation": 1
+    },
+    {
+        "generation": 2,
+        "group": "crab",
+        "id": 16,
+        "name": "Shogun Ceanataur",
+        "variation": 1
+    },
+    {
+        "generation": 2,
+        "group": "crab",
+        "id": 17,
+        "name": "Terra Shogun Ceanataur",
+        "variation": 2
+    },
+    {
+        "generation": 4,
+        "group": "crab",
+        "id": 18,
+        "name": "Rustrazor Ceanataur",
+        "variation": 5
+    },
+    {
+        "generation": 4,
+        "group": "crab",
+        "id": 19,
+        "name": "Daimyo Hermitaur",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "frog",
+        "id": 20,
+        "name": "Tetsucabra",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "frog",
+        "id": 21,
+        "name": "Drilltusk Tetsucabra",
+        "variation": 5
+    },
+    {
+        "generation": 4,
+        "group": "frog",
+        "id": 22,
+        "name": "Zamtrios",
+        "variation": 1
+    },
+    {
+        "generation": 5,
+        "group": "frog",
+        "id": 23,
+        "name": "Tetranadon",
+        "variation": 1
+    },
+    {
+        "generation": 3,
+        "group": "beast",
+        "id": 24,
+        "name": "Arzuros",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "beast",
+        "id": 25,
+        "name": "Redhelm Arzuros",
+        "variation": 5
+    },
+    {
+        "generation": 4,
+        "group": "beast",
+        "id": 26,
+        "name": "Gammoth",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "beast",
+        "id": 27,
+        "name": "Elderfrost Gammoth",
+        "variation": 5
+    },
+    {
+        "generation": 5,
+        "group": "beast",
+        "id": 28,
+        "name": "Goss Harag",
+        "variation": 1
+    },
+    {
+        "generation": 3,
+        "group": "water",
+        "id": 29,
+        "name": "Lagiacrus",
+        "variation": 1
+    },
+    {
+        "generation": 3,
+        "group": "water",
+        "id": 30,
+        "name": "Ivory Lagiacrus",
+        "variation": 2
+    },
+    {
+        "generation": 3,
+        "group": "water",
+        "id": 31,
+        "name": "Abyssal Lagiacrus",
+        "variation": 3
+    },
+    {
+        "generation": 3,
+        "group": "water",
+        "id": 32,
+        "name": "Agnaktor",
+        "variation": 1
+    },
+    {
+        "generation": 3,
+        "group": "water",
+        "id": 33,
+        "name": "Glacial Agnaktor",
+        "variation": 2
+    },
+    {
+        "generation": 4,
+        "group": "snake",
+        "id": 34,
+        "name": "Najarala",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "snake",
+        "id": 35,
+        "name": "Tidal Najarala",
+        "variation": 2
+    },
+    {
+        "generation": 3,
+        "group": "brute",
+        "id": 36,
+        "name": "Brachydios",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "brute",
+        "id": 37,
+        "name": "Raging Brachydios",
+        "variation": 4
+    },
+    {
+        "generation": 4,
+        "group": "brute",
+        "id": 38,
+        "name": "Glavenus",
+        "variation": 1
+    },
+    {
+        "generation": 5,
+        "group": "brute",
+        "id": 39,
+        "name": "Acidic Glavenus",
+        "variation": 2
+    },
+    {
+        "generation": 4,
+        "group": "brute",
+        "id": 40,
+        "name": "Hellblade Glavenus",
+        "variation": 5
+    },
+    {
+        "generation": 5,
+        "group": "brute",
+        "id": 41,
+        "name": "Anjanath",
+        "variation": 1
+    },
+    {
+        "generation": 5,
+        "group": "brute",
+        "id": 42,
+        "name": "Fulgur Anjanath",
+        "variation": 2
+    },
+    {
+        "generation": 3,
+        "group": "fanged",
+        "id": 43,
+        "name": "Zinogre",
+        "variation": 1
+    },
+    {
+        "generation": 3,
+        "group": "fanged",
+        "id": 44,
+        "name": "Stygian Zinogre",
+        "variation": 2
+    },
+    {
+        "generation": 4,
+        "group": "fanged",
+        "id": 45,
+        "name": "Thunderlord Zinogre",
+        "variation": 5
+    },
+    {
+        "generation": 5,
+        "group": "fanged",
+        "id": 46,
+        "name": "Magnamalo",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "elder",
+        "id": 47,
+        "name": "Valstrax",
+        "variation": 1
+    },
+    {
+        "generation": 5,
+        "group": "elder",
+        "id": 48,
+        "name": "Crimson Glow Valstrax",
+        "variation": 4
+    },
+    {
+        "generation": 5,
+        "group": "elder",
+        "id": 49,
+        "name": "Nergigante",
+        "variation": 1
+    },
+    {
+        "generation": 5,
+        "group": "elder",
+        "id": 50,
+        "name": "Ruiner Nergigante",
+        "variation": 4
+    },
+    {
+        "generation": 5,
+        "group": "elder",
+        "id": 51,
+        "name": "Ibushi",
+        "variation": 1
+    },
+    {
+        "generation": 5,
+        "group": "elder",
+        "id": 52,
+        "name": "Narwa",
+        "variation": 1
+    },
+    {
+        "generation": 5,
+        "group": "elder",
+        "id": 53,
+        "name": "Narwa Allmother",
+        "variation": 4
+    },
+    {
+        "generation": 4,
+        "group": "???",
+        "id": 54,
+        "name": "Gore Magala",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "elder",
+        "id": 55,
+        "name": "Shagaru Magala",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "???",
+        "id": 56,
+        "name": "Chaotic Gore Magala",
+        "variation": 4
+    },
+    {
+        "generation": 1,
+        "group": "elder",
+        "id": 57,
+        "name": "Fatalis",
+        "variation": 1
+    },
+    {
+        "generation": 4,
+        "group": "elder",
+        "id": 58,
+        "name": "Gogmazios",
+        "variation": 1
+    },
+    {
+        "generation": 5,
+        "group": "elder",
+        "id": 59,
+        "name": "Xeno'jiiva",
+        "variation": 1
+    },
+    {
+        "generation": 1,
+        "group": "flying",
+        "id": 60,
+        "name": "Rathian",
+        "variation": 4
+    },
+    {
+        "generation": 5,
+        "group": "elder",
+        "id": 61,
+        "name": "Velkhana",
+        "variation": 1
+    }
+]}
