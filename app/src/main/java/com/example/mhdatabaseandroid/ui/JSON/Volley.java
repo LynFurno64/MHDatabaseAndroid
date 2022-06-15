@@ -107,9 +107,9 @@ public class Volley extends AppCompatActivity {
                 JSONObject jsonObject = new JSONObject(s);
 
                 //gets json array name
-                JSONArray jsonArray1 = jsonObject.getJSONArray();
+               // JSONArray jsonArray1 = jsonObject.getJSONArray();
 
-                JSONObject jsonObject1 =jsonArray1.getJSONObject();
+                //JSONObject jsonObject1 =jsonArray1.getJSONObject();
                 //String id = jsonObject1.getString("id");
                // String name = jsonObject1.getString("name");
 
