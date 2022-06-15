@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MHDatabaseAndroid">
         <activity
-            android:name=".MHinfo"
+            android:name=".Volley"
             android:exported="false" />
         <activity
-            android:name=".ui.home.SearchHome"
+            android:name=".mainView"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
