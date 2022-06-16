@@ -1,4 +1,4 @@
-package com.example.mhdatabaseandroid.ui.home;
+package com.example.mhdatabaseandroid.ui.Class;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

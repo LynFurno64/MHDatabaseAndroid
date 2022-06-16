@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.mhdatabaseandroid.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:name="com.example.mhdatabaseandroid.ui.Class.MhclassFragment"
+        android:label="Monster Class"
         tools:layout="@layout/fragment_home" />
 
     <fragment

@@ -1,11 +1,11 @@
 package com.example.mhdatabaseandroid;
 
+import android.os.Bundle;
+import android.widget.SearchView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.widget.LinearLayout;
 
 import com.example.mhdatabaseandroid.ui.JSON.CustomAdapter;
 
@@ -21,7 +21,7 @@ public class mainView extends AppCompatActivity {
 
     RecyclerView recyclerView;
     ArrayList<String> name = new ArrayList<>();
-
+    CustomAdapter customAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,10 +43,11 @@ public class mainView extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        CustomAdapter customAdapter = new CustomAdapter(name,mainView.this);
+        customAdapter = new CustomAdapter(name,mainView.this);
         recyclerView.setAdapter(customAdapter);
 
     }
+
 
     private String JsonDataFromAssest() {
         String json = null;
